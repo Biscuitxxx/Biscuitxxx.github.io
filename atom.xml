@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>我的日常</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-11-18T07:42:22.014Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第一篇日常记录</title>
+    <link href="http://example.com/2025/11/16/2025-11-18-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%97%A5%E5%B8%B8/"/>
+    <id>http://example.com/2025/11/16/2025-11-18-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%97%A5%E5%B8%B8/</id>
+    <published>2025-11-15T16:00:00.000Z</published>
+    <updated>2025-11-18T07:42:22.014Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的第一个博客文</p><p><img src="/../images/01.png" alt="这是一张风景图"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是我的第一个博客文&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/../images/01.png&quot; alt=&quot;这是一张风景图&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>
