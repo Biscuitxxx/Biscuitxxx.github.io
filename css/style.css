@@ -1,11 +1,90 @@
 :root {
+  --neut-L90: rgba(0,0,0,0.9);
+  --neut-L75: rgba(0,0,0,0.75);
+  --neut-L50: rgba(0,0,0,0.5);
+  --neut-L30: rgba(0,0,0,0.3);
+  --neut-L10: rgba(0,0,0,0.1);
+  --banner-dim: none;
+  --primary-hue: 250;
+  --main-title: rgba(0,0,0,0.9);
+  --article-meta: rgba(0,0,0,0.5);
+  --article-text: rgba(0,0,0,0.75);
+  --btn-text-neutral-text: rgba(0,0,0,0.75);
+  --info-name: rgba(0,0,0,0.9);
+  --info-sub: rgba(0,0,0,0.5);
+  --tag-dot: var(--btn-content);
+  --img-overlay: rgba(0,0,0,0);
+  --pagenav-curr-text: rgba(255,255,255,0.9);
+  --primary-btn-text: rgba(255,255,255,0.9);
+  --sidebar-width: 280px;
+  --display-light-icon: 1;
+  --display-dark-icon: 0;
+}
+@supports (color: oklch(0 0 0)) {
+  :root {
+    --primary: oklch(0.7 0.14 var(--primary-hue));
+    --page-background: oklch(0.95 0.01 var(--primary-hue));
+    --nav-dropdown-bg: oklch(0.98 0.005 var(--primary-hue));
+    --btn-bg: oklch(0.95 0.025 var(--primary-hue));
+    --btn-content: oklch(0.55 0.12 var(--primary-hue));
+    --btn-hover: oklch(0.9 0.05 var(--primary-hue));
+    --btn-active: oklch(0.85 0.08 var(--primary-hue));
+    --btn-text-hover: oklch(0.95 0.025 var(--primary-hue));
+    --btn-text-active: oklch(0.98 0.01 var(--primary-hue));
+    --btn-text-content: oklch(0.7 0.14 var(--primary-hue));
+    --card-btn-hover: oklch(0.98 0.005 var(--primary-hue));
+    --card-btn-active: oklch(0.9 0.03 var(--primary-hue));
+    --title-active: oklch(0.6 0.12 var(--primary-hue));
+    --link-hover-bg: oklch(0.95 0.025 var(--primary-hue));
+    --link-active-bg: oklch(0.9 0.05 var(--primary-hue));
+    --article-code-bg: oklch(0.95 0.02 var(--primary-hue));
+    --blockquote-bg: oklch(0.98 0.005 var(--primary-hue));
+    --badge-bg: oklch(0.95 0.02 var(--primary-hue));
+    --text-on-light: oklch(0.55 0.12 var(--primary-hue));
+    --color-picker-range: oklch(0.95 0.02 var(--primary-hue));
+    --input-field: oklch(0.98 0.005 var(--primary-hue));
+    --enter-btn-bg: oklch(0.98 0.005 var(--primary-hue));
+    --enter-btn-hover: oklch(0.96 0.015 var(--primary-hue));
+    --enter-btn-active: oklch(0.9 0.03 var(--primary-hue));
+    --selection-bg: oklch(0.9 0.05 var(--primary-hue));
+  }
+}
+@supports not (color: oklch(0 0 0)) {
+  :root {
+    --primary: #53a3f2;
+    --page-background: #eaeff5;
+    --nav-dropdown-bg: #f6f9fc;
+    --btn-bg: #e2f0ff;
+    --btn-content: #3275b4;
+    --btn-hover: #c6e1ff;
+    --btn-active: #a6d2ff;
+    --btn-text-hover: #e2f0ff;
+    --btn-text-active: #f4f9ff;
+    --btn-text-content: #53a3f2;
+    --card-btn-hover: #f6f9fc;
+    --card-btn-active: #d0e0f2;
+    --title-active: #4284c5;
+    --link-hover-bg: #e2f0ff;
+    --link-active-bg: #c6e1ff;
+    --article-code-bg: #e5f0fc;
+    --blockquote-bg: #f6f9fc;
+    --badge-bg: #e5f0fc;
+    --text-on-light: #3275b4;
+    --color-picker-range: #e5f0fc;
+    --input-field: #f6f9fc;
+    --enter-btn-bg: #f6f9fc;
+    --enter-btn-hover: #ebf3fc;
+    --enter-btn-active: #d0e0f2;
+    --selection-bg: #c6e1ff;
+  }
+}
+:root[theme='dark'] {
   --neut-L90: rgba(255,255,255,0.9);
   --neut-L75: rgba(255,255,255,0.75);
   --neut-L50: rgba(255,255,255,0.5);
   --neut-L30: rgba(255,255,255,0.3);
   --neut-L10: rgba(255,255,255,0.1);
   --banner-dim: rgba(0,0,0,0.2);
-  --primary-hue: 250;
   --main-title: rgba(255,255,255,0.9);
   --btn-content: var(--neut-L75);
   --btn-content-hover: var(--btn-content);
@@ -32,12 +111,11 @@
   --archive-dashline: var(--neut-L10);
   --primary-btn-bg: var(--primary);
   --img-overlay: rgba(0,0,0,0.1);
-  --sidebar-width: 280px;
   --display-light-icon: 0;
   --display-dark-icon: 1;
 }
 @supports (color: oklch(0 0 0)) {
-  :root {
+  :root[theme='dark'] {
     --primary: oklch(0.75 0.14 var(--primary-hue));
     --nav-dropdown-bg: oklch(0.2 0.02 var(--primary-hue));
     --page-background: oklch(0.16 0.014 var(--primary-hue));
@@ -72,7 +150,7 @@
   }
 }
 @supports not (color: oklch(0 0 0)) {
-  :root {
+  :root[theme='dark'] {
     --primary: #63b3ff;
     --nav-dropdown-bg: #0f171f;
     --page-background: #090e13;
@@ -104,85 +182,6 @@
     --enter-btn-active: #2d3c4c;
     --selection-bg: #224a71;
     --code-block-selection-bg: #224a71;
-  }
-}
-:root[theme='light'] {
-  --card-background: #fff;
-  --banner-dim: none;
-  --neut-L90: rgba(0,0,0,0.9);
-  --neut-L75: rgba(0,0,0,0.75);
-  --neut-L50: rgba(0,0,0,0.5);
-  --neut-L30: rgba(0,0,0,0.3);
-  --neut-L10: rgba(0,0,0,0.1);
-  --main-title: rgba(0,0,0,0.9);
-  --article-meta: rgba(0,0,0,0.5);
-  --article-text: rgba(0,0,0,0.75);
-  --btn-text-neutral-text: rgba(0,0,0,0.75);
-  --info-name: rgba(0,0,0,0.9);
-  --info-sub: rgba(0,0,0,0.5);
-  --tag-dot: var(--btn-content);
-  --img-overlay: rgba(0,0,0,0);
-  --pagenav-curr-text: rgba(255,255,255,0.9);
-  --primary-btn-text: rgba(255,255,255,0.9);
-  --display-light-icon: 1;
-  --display-dark-icon: 0;
-}
-@supports (color: oklch(0 0 0)) {
-  :root[theme='light'] {
-    --primary: oklch(0.7 0.14 var(--primary-hue));
-    --page-background: oklch(0.95 0.01 var(--primary-hue));
-    --nav-dropdown-bg: oklch(0.98 0.005 var(--primary-hue));
-    --btn-bg: oklch(0.95 0.025 var(--primary-hue));
-    --btn-content: oklch(0.55 0.12 var(--primary-hue));
-    --btn-hover: oklch(0.9 0.05 var(--primary-hue));
-    --btn-active: oklch(0.85 0.08 var(--primary-hue));
-    --btn-text-hover: oklch(0.95 0.025 var(--primary-hue));
-    --btn-text-active: oklch(0.98 0.01 var(--primary-hue));
-    --btn-text-content: oklch(0.7 0.14 var(--primary-hue));
-    --card-btn-hover: oklch(0.98 0.005 var(--primary-hue));
-    --card-btn-active: oklch(0.9 0.03 var(--primary-hue));
-    --title-active: oklch(0.6 0.12 var(--primary-hue));
-    --link-hover-bg: oklch(0.95 0.025 var(--primary-hue));
-    --link-active-bg: oklch(0.9 0.05 var(--primary-hue));
-    --article-code-bg: oklch(0.95 0.02 var(--primary-hue));
-    --blockquote-bg: oklch(0.98 0.005 var(--primary-hue));
-    --badge-bg: oklch(0.95 0.02 var(--primary-hue));
-    --text-on-light: oklch(0.55 0.12 var(--primary-hue));
-    --color-picker-range: oklch(0.95 0.02 var(--primary-hue));
-    --input-field: oklch(0.98 0.005 var(--primary-hue));
-    --enter-btn-bg: oklch(0.98 0.005 var(--primary-hue));
-    --enter-btn-hover: oklch(0.96 0.015 var(--primary-hue));
-    --enter-btn-active: oklch(0.9 0.03 var(--primary-hue));
-    --selection-bg: oklch(0.9 0.05 var(--primary-hue));
-  }
-}
-@supports not (color: oklch(0 0 0)) {
-  :root[theme='light'] {
-    --primary: #53a3f2;
-    --page-background: #eaeff5;
-    --nav-dropdown-bg: #f6f9fc;
-    --btn-bg: #e2f0ff;
-    --btn-content: #3275b4;
-    --btn-hover: #c6e1ff;
-    --btn-active: #a6d2ff;
-    --btn-text-hover: #e2f0ff;
-    --btn-text-active: #f4f9ff;
-    --btn-text-content: #53a3f2;
-    --card-btn-hover: #f6f9fc;
-    --card-btn-active: #d0e0f2;
-    --title-active: #4284c5;
-    --link-hover-bg: #e2f0ff;
-    --link-active-bg: #c6e1ff;
-    --article-code-bg: #e5f0fc;
-    --blockquote-bg: #f6f9fc;
-    --badge-bg: #e5f0fc;
-    --text-on-light: #3275b4;
-    --color-picker-range: #e5f0fc;
-    --input-field: #f6f9fc;
-    --enter-btn-bg: #f6f9fc;
-    --enter-btn-hover: #ebf3fc;
-    --enter-btn-active: #d0e0f2;
-    --selection-bg: #c6e1ff;
   }
 }
 body {
