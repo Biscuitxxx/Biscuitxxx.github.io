@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-07T08:54:05.316Z</updated>
+  <updated>2025-12-10T11:06:01.536Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>未来项目加密日志</title>
+    <link href="http://example.com/2025/12/10/%E9%9F%B3%E5%93%8D%E5%85%AC%E5%8F%B8%E7%9A%84%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2025/12/10/%E9%9F%B3%E5%93%8D%E5%85%AC%E5%8F%B8%E7%9A%84%E8%A7%84%E5%88%92/</id>
+    <published>2025-12-09T16:00:00.000Z</published>
+    <updated>2025-12-10T11:06:01.536Z</updated>
+    
+    <content type="html"><![CDATA[<p>(内容以加密，绝对不是炫技，就是装逼，嘻嘻😜)</p><p>1.SneGF9blR2k9dAjvflgKDg&#x3D;&#x3D;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;(内容以加密，绝对不是炫技，就是装逼，嘻嘻😜)&lt;/p&gt;
+&lt;p&gt;1.SneGF9blR2k9dAjvflgKDg&amp;#x3D;&amp;#x3D;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="音响厂企划密档" scheme="http://example.com/categories/%E9%9F%B3%E5%93%8D%E5%8E%82%E4%BC%81%E5%88%92%E5%AF%86%E6%A1%A3/"/>
+    
+    
+    <category term="work" scheme="http://example.com/tags/work/"/>
+    
+  </entry>
   
   <entry>
     <title>《开合式音响》</title>
