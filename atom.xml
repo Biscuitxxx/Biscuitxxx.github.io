@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-12-26T16:17:27.325Z</updated>
+  <updated>2026-02-22T13:39:39.166Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《最喜欢的办公桌》</title>
+    <link href="http://example.com/2026/02/22/2026-2-22%E3%80%8A%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E5%8A%9E%E5%85%AC%E6%A1%8C%E3%80%8B/"/>
+    <id>http://example.com/2026/02/22/2026-2-22%E3%80%8A%E6%9C%80%E5%96%9C%E6%AC%A2%E7%9A%84%E5%8A%9E%E5%85%AC%E6%A1%8C%E3%80%8B/</id>
+    <published>2026-02-21T16:00:00.000Z</published>
+    <updated>2026-02-22T13:39:39.166Z</updated>
+    
+    <content type="html"><![CDATA[<p>终于明白为什么有人会对实木家具如此着迷了。当我坐在这张金石楠木桌前，指尖抚过温润的木纹，才真切感受到那种沉淀了时光的韵味。尤其是在暖黄的灯光下，桌面下的金丝若隐若现，像极了国漫里仙人洞府里的案几，自带一种超然物外的气场。</p><p>此刻敲下的每一行代码，都仿佛不是在处理工作，而是在挥毫泼墨。这张桌子，让我在方寸之间，也能生出几分“指点江山”的意气</p><p><img src="/../images/daily/desk/desk01.jpg" alt="这是一张桌子图片"><br><img src="/../images/daily/desk/desk02.jpg" alt="这是一张桌子图片"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;终于明白为什么有人会对实木家具如此着迷了。当我坐在这张金石楠木桌前，指尖抚过温润的木纹，才真切感受到那种沉淀了时光的韵味。尤其是在暖黄的灯光下，桌面下的金丝若隐若现，像极了国漫里仙人洞府里的案几，自带一种超然物外的气场。&lt;/p&gt;
+&lt;p&gt;此刻敲下的每一行代码，都仿佛不是在处理</summary>
+      
+    
+    
+    
+    <category term="金丝楠木桌和红木椅" scheme="http://example.com/categories/%E9%87%91%E4%B8%9D%E6%A5%A0%E6%9C%A8%E6%A1%8C%E5%92%8C%E7%BA%A2%E6%9C%A8%E6%A4%85/"/>
+    
+    
+    <category term="日常" scheme="http://example.com/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>理财</title>
@@ -41,33 +66,6 @@
   </entry>
   
   <entry>
-    <title>未来项目加密日志</title>
-    <link href="http://example.com/2025/12/10/%E9%9F%B3%E5%93%8D%E5%85%AC%E5%8F%B8%E7%9A%84%E8%A7%84%E5%88%92/"/>
-    <id>http://example.com/2025/12/10/%E9%9F%B3%E5%93%8D%E5%85%AC%E5%8F%B8%E7%9A%84%E8%A7%84%E5%88%92/</id>
-    <published>2025-12-09T16:00:00.000Z</published>
-    <updated>2025-12-12T10:35:27.482Z</updated>
-    
-    <content type="html"><![CDATA[<p>(内容以加密，绝对不是炫技，就是装逼，嘻嘻😜)</p><p>1.SneGF9blR2k9dAjvflgKDg&#x3D;&#x3D;</p><p>2.7IgYlFa1Skw0xTbZx9i1VakSPkVy2AYscelnD4YHScM&#x3D;</p><p>3.m4JpyLc5RbmAlH&#x2F;PtyZAWA&#x3D;&#x3D;</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;(内容以加密，绝对不是炫技，就是装逼，嘻嘻😜)&lt;/p&gt;
-&lt;p&gt;1.SneGF9blR2k9dAjvflgKDg&amp;#x3D;&amp;#x3D;&lt;/p&gt;
-&lt;p&gt;2.7IgYlFa1Skw0xTbZx9i1VakSPkVy2AYscelnD4YHScM&amp;#x3D;&lt;/p&gt;
-&lt;p&gt;3.</summary>
-      
-    
-    
-    
-    <category term="音响厂企划密档" scheme="http://example.com/categories/%E9%9F%B3%E5%93%8D%E5%8E%82%E4%BC%81%E5%88%92%E5%AF%86%E6%A1%A3/"/>
-    
-    
-    <category term="work" scheme="http://example.com/tags/work/"/>
-    
-  </entry>
-  
-  <entry>
     <title>《神秘的老表》</title>
     <link href="http://example.com/2025/12/10/3D%E5%BB%BA%E6%A8%A1/"/>
     <id>http://example.com/2025/12/10/3D%E5%BB%BA%E6%A8%A1/</id>
@@ -90,6 +88,33 @@
     
     
     <category term="3D建模" scheme="http://example.com/tags/3D%E5%BB%BA%E6%A8%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>未来项目加密日志</title>
+    <link href="http://example.com/2025/12/10/%E9%9F%B3%E5%93%8D%E5%85%AC%E5%8F%B8%E7%9A%84%E8%A7%84%E5%88%92/"/>
+    <id>http://example.com/2025/12/10/%E9%9F%B3%E5%93%8D%E5%85%AC%E5%8F%B8%E7%9A%84%E8%A7%84%E5%88%92/</id>
+    <published>2025-12-09T16:00:00.000Z</published>
+    <updated>2026-01-02T16:07:28.361Z</updated>
+    
+    <content type="html"><![CDATA[<p>(内容以加密，绝对不是炫技，就是装逼，嘻嘻😜)</p><p>1.SneGF9blR2k9dAjvflgKDg&#x3D;&#x3D;</p><p>2.7IgYlFa1Skw0xTbZx9i1VakSPkVy2AYscelnD4YHScM&#x3D;</p><p>3.m4JpyLc5RbmAlH&#x2F;PtyZAWA&#x3D;&#x3D;</p><p>4.用证实的🥁鼓代替音响</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;(内容以加密，绝对不是炫技，就是装逼，嘻嘻😜)&lt;/p&gt;
+&lt;p&gt;1.SneGF9blR2k9dAjvflgKDg&amp;#x3D;&amp;#x3D;&lt;/p&gt;
+&lt;p&gt;2.7IgYlFa1Skw0xTbZx9i1VakSPkVy2AYscelnD4YHScM&amp;#x3D;&lt;/p&gt;
+&lt;p&gt;3.</summary>
+      
+    
+    
+    
+    <category term="音响厂企划密档" scheme="http://example.com/categories/%E9%9F%B3%E5%93%8D%E5%8E%82%E4%BC%81%E5%88%92%E5%AF%86%E6%A1%A3/"/>
+    
+    
+    <category term="work" scheme="http://example.com/tags/work/"/>
     
   </entry>
   
@@ -143,6 +168,31 @@
   </entry>
   
   <entry>
+    <title>《辛丑年秋月食网红汉堡有感》</title>
+    <link href="http://example.com/2025/11/19/2025-11-19-%E7%BD%91%E7%BA%A2%E6%B1%89%E5%A0%A1/"/>
+    <id>http://example.com/2025/11/19/2025-11-19-%E7%BD%91%E7%BA%A2%E6%B1%89%E5%A0%A1/</id>
+    <published>2025-11-18T16:00:00.000Z</published>
+    <updated>2025-11-19T14:17:09.413Z</updated>
+    
+    <content type="html"><![CDATA[<p>15元的牛肉堡，这种顶级夜宵，我真是每咬一口都给他拍一张写真，真是恨不得。</p><p>辛丑秋夜，漏深人静，偶于市间得一堡，值十五钱。其形虽类速食之馔，味却无衢肆之浓腻，反似家厨亲治，朴质可亲。<br>虽其肉香不若麦、肯诸店之馥烈，然自购糜肉为料，费且廿余，今以半资得此现成之味，亦各有妙处。每啮一口，辄摄其影，恐佳味易逝，欲留迹耳。</p><p>形容<br>他没有那种，快餐店的那种感觉，更像是家做的，就在家自己做的那种感觉。他那个牛肉倒是没有那个麦当劳之类的那个香，因为麦当劳之类的，它会有一种香味，就是很香，麦当劳还有肯德基的那个牛肉包里面的那个牛肉饼但总体来说，我觉得还行，如果自己做的话，要买一盒牛肉末的话，起码得有20到30吧，但15块钱你就能吃到，还是现成的，还是各有各的好吧。</p><p>评论<br>好友：那就是还行，如果自己去买要23十的话，不管他的进货价是多少，但对我们来说是可以了</p><p>我：是啊，各有各的好，自己做的话，可能会预算多一点，但是牛肉可以吃到爽</p><p>我：吃完写一篇回忆录🤣😂</p><p>……</p><p><img src="/../images/ms01-1.jpg" alt="这是一张风景图"><br><img src="/../images/ms01-2.jpg" alt="这是一张风景图"><br><img src="/../images/ms01-3.jpg" alt="这是一张风景图"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;15元的牛肉堡，这种顶级夜宵，我真是每咬一口都给他拍一张写真，真是恨不得。&lt;/p&gt;
+&lt;p&gt;辛丑秋夜，漏深人静，偶于市间得一堡，值十五钱。其形虽类速食之馔，味却无衢肆之浓腻，反似家厨亲治，朴质可亲。&lt;br&gt;虽其肉香不若麦、肯诸店之馥烈，然自购糜肉为料，费且廿余，今以半资得此现</summary>
+      
+    
+    
+    
+    <category term="美食" scheme="http://example.com/categories/%E7%BE%8E%E9%A3%9F/"/>
+    
+    
+    <category term="美食" scheme="http://example.com/tags/%E7%BE%8E%E9%A3%9F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我的博客建站碎碎念</title>
     <link href="http://example.com/2025/11/19/2025-11-19-%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     <id>http://example.com/2025/11/19/2025-11-19-%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%BB%BA%E7%AB%99%E7%A2%8E%E7%A2%8E%E5%BF%B5/</id>
@@ -169,31 +219,6 @@
   </entry>
   
   <entry>
-    <title>《辛丑年秋月食网红汉堡有感》</title>
-    <link href="http://example.com/2025/11/19/2025-11-19-%E7%BD%91%E7%BA%A2%E6%B1%89%E5%A0%A1/"/>
-    <id>http://example.com/2025/11/19/2025-11-19-%E7%BD%91%E7%BA%A2%E6%B1%89%E5%A0%A1/</id>
-    <published>2025-11-18T16:00:00.000Z</published>
-    <updated>2025-11-19T14:17:09.413Z</updated>
-    
-    <content type="html"><![CDATA[<p>15元的牛肉堡，这种顶级夜宵，我真是每咬一口都给他拍一张写真，真是恨不得。</p><p>辛丑秋夜，漏深人静，偶于市间得一堡，值十五钱。其形虽类速食之馔，味却无衢肆之浓腻，反似家厨亲治，朴质可亲。<br>虽其肉香不若麦、肯诸店之馥烈，然自购糜肉为料，费且廿余，今以半资得此现成之味，亦各有妙处。每啮一口，辄摄其影，恐佳味易逝，欲留迹耳。</p><p>形容<br>他没有那种，快餐店的那种感觉，更像是家做的，就在家自己做的那种感觉。他那个牛肉倒是没有那个麦当劳之类的那个香，因为麦当劳之类的，它会有一种香味，就是很香，麦当劳还有肯德基的那个牛肉包里面的那个牛肉饼但总体来说，我觉得还行，如果自己做的话，要买一盒牛肉末的话，起码得有20到30吧，但15块钱你就能吃到，还是现成的，还是各有各的好吧。</p><p>评论<br>好友：那就是还行，如果自己去买要23十的话，不管他的进货价是多少，但对我们来说是可以了</p><p>我：是啊，各有各的好，自己做的话，可能会预算多一点，但是牛肉可以吃到爽</p><p>我：吃完写一篇回忆录🤣😂</p><p>……</p><p><img src="/../images/ms01-1.jpg" alt="这是一张风景图"><br><img src="/../images/ms01-2.jpg" alt="这是一张风景图"><br><img src="/../images/ms01-3.jpg" alt="这是一张风景图"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;15元的牛肉堡，这种顶级夜宵，我真是每咬一口都给他拍一张写真，真是恨不得。&lt;/p&gt;
-&lt;p&gt;辛丑秋夜，漏深人静，偶于市间得一堡，值十五钱。其形虽类速食之馔，味却无衢肆之浓腻，反似家厨亲治，朴质可亲。&lt;br&gt;虽其肉香不若麦、肯诸店之馥烈，然自购糜肉为料，费且廿余，今以半资得此现</summary>
-      
-    
-    
-    
-    <category term="美食" scheme="http://example.com/categories/%E7%BE%8E%E9%A3%9F/"/>
-    
-    
-    <category term="美食" scheme="http://example.com/tags/%E7%BE%8E%E9%A3%9F/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我的第一篇日常记录</title>
     <link href="http://example.com/2025/11/16/2025-11-18-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%97%A5%E5%B8%B8/"/>
     <id>http://example.com/2025/11/16/2025-11-18-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%97%A5%E5%B8%B8/</id>
@@ -216,6 +241,28 @@
     
     
     <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的第一篇日常记录</title>
+    <link href="http://example.com/2025/11/16/2025-1-1%20water/"/>
+    <id>http://example.com/2025/11/16/2025-1-1%20water/</id>
+    <published>2025-11-15T16:00:00.000Z</published>
+    <updated>2026-01-01T14:48:01.930Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="杯中旧水，藏着亿万年的时光"><a href="#杯中旧水，藏着亿万年的时光" class="headerlink" title="杯中旧水，藏着亿万年的时光"></a>杯中旧水，藏着亿万年的时光</h1><p>端起手边这杯水时，总忍不住生出一种奇妙的遐想：这杯里的每一滴，都不是初见世间的新物，它或许是恐龙时期掠过莽原的一滴雨，是秦始皇时代落在咸阳城的一片雪，是藏在远古深海里的一抹浪，辗转亿万年，最终赴了与我的这一场浅遇。<br>地球的水循环，是一场永不落幕的轮回，从海洋到云端，从山川到湖海，从冻土到溪流，水从不会真正消失，只是换一种模样，在时光里辗转迁徙。它曾在白垩纪的天空凝结，伴着翼龙的振翅坠落，打湿过霸王龙的鳞甲，浸润过史前蕨类的根系；也曾在寒冬的秦地落雪，积在阿房宫的檐角，随春风消融，汇入渭水，淌过千年前的市井街巷，听过古人的车马喧嚣与低语浅唱。<br>它可能沉在幽深的地下暗河，沉睡过百万个春秋，任地壳变迁，任岁月更迭，始终守着一颗澄澈的初心；也可能蒸腾于盛唐的长安上空，化作一场杏花雨，落在赶考书生的肩头，落在长安仕女的裙摆，见证过盛世的繁华与人间的烟火；或许还曾成为某株古木的汁液，某尾游鱼的呼吸，某只飞鸟的羽露，以不同的姿态，参与过世间千万种故事的书写。<br>我们总说时光易逝，岁月难留，可偏偏这寻常的水，成了时光最忠实的载体。它带着亿万年的风尘，带着远古的印记，带着历朝历代的光影，穿越山海，跨越星河，最终静静躺在我们的杯中，顺着喉咙流入心底，成为我们生命的一部分。这一刻，我们喝下的哪里是水，分明是浓缩的时光，是跨越亿万年的浪漫，是与远古岁月、与千百年前的世界，最温柔的相拥。<br>不必慨叹时光遥远，不必遗憾未曾亲历往昔。你看这杯中水，一滴便藏着白垩纪的风，一滴便载着秦汉的雪，一滴便盛着千年的月。当唇齿触碰到这份清凉，便已是与亿万年时光的同频共振，是最平凡，也最盛大的浪漫。这世间最珍贵的奇遇，从来都藏在日常的一饮一啄里，这杯旧水，便是时光赠予我们最温柔的礼物，让我们在平凡的日子里，也能饮下整个宇宙的浪漫与悠长。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;杯中旧水，藏着亿万年的时光&quot;&gt;&lt;a href=&quot;#杯中旧水，藏着亿万年的时光&quot; class=&quot;headerlink&quot; title=&quot;杯中旧水，藏着亿万年的时光&quot;&gt;&lt;/a&gt;杯中旧水，藏着亿万年的时光&lt;/h1&gt;&lt;p&gt;端起手边这杯水时，总忍不住生出一种奇妙的遐想：这杯里</summary>
+      
+    
+    
+    
+    <category term="文章" scheme="http://example.com/categories/%E6%96%87%E7%AB%A0/"/>
+    
     
   </entry>
   
