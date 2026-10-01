@@ -56,12 +56,6 @@ export default defineConfig({
 	fonts: customFontsEnabled
 		? [
 				{
-					name: "JetBrains Mono",
-					cssVariable: "--font-jetbrains-mono",
-					provider: fontProviders.fontsource(),
-					styles: ["normal", "italic"],
-				},
-				{
 					name: "ZenMaruGothic-Medium",
 					cssVariable: "--font-body",
 					provider: fontProviders.local(),
