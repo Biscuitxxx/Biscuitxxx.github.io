@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <title>七月初dd</title>
+  <subtitle>阅读风的流动，是为了~</subtitle>
+  <link href="https://biscuitxxx.github.io/" rel="alternate" type="text/html"/>
+  <link href="https://biscuitxxx.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://biscuitxxx.github.io/</id>
+  <updated>2026-10-02T00:00:00.000Z</updated>
+  <entry>
+    <title>财务规划</title>
+    <link href="https://biscuitxxx.github.io/posts/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/</id>
+    <published>2026-10-02T00:00:00.000Z</published>
+    <updated>2026-10-02T00:00:00.000Z</updated>
+    <summary>存钱守钱是首要，决定人生下限；但更重要的是挣钱的能力，决定上限。</summary>
+    <content type="html"><![CDATA[<p>存钱守钱是首要，决定人生下限；但更重要的是挣钱的能力，决定上限。</p>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="财务"/>
+  </entry>
+</feed>
