@@ -1,7 +1,3 @@
-import clCover from "../../../assets/music/cover/cl.webp?url";
-import dazbeeCover from "../../../assets/music/cover/dazbee.webp?url";
-import hitoriCover from "../../../assets/music/cover/hitori.webp?url";
-import xryxCover from "../../../assets/music/cover/xryx.webp?url";
 import type { Song } from "./types";
 
 export const STORAGE_KEY_VOLUME = "music-player-volume";
@@ -13,35 +9,35 @@ export const DEFAULT_COVER_URL = "/favicon/favicon.ico";
 export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
-		title: "口笛で愛は歌えない",
-		artist: "Dazbee",
-		cover: dazbeeCover,
-		url: "assets/music/url/dazbee.mp3",
-		duration: 241,
+		title: "唱山",
+		artist: "洛天依",
+		cover: "/music/covers/cover1.webp",
+		url: "/music/changshan.mp3",
+		duration: 260,
 	},
 	{
 		id: 2,
-		title: "ひとり上手",
-		artist: "Kaya",
-		cover: hitoriCover,
-		url: "assets/music/url/hitori.mp3",
-		duration: 253,
+		title: "东京不太热",
+		artist: "洛天依",
+		cover: "/music/covers/cover2.webp",
+		url: "/music/dongjingbutaire.mp3",
+		duration: 225,
 	},
 	{
 		id: 3,
-		title: "眩耀夜行",
-		artist: "ス리즈ブーケ",
-		cover: xryxCover,
-		url: "assets/music/url/xryx.mp3",
-		duration: 245,
+		title: "写给我第一个喜欢的女孩的歌",
+		artist: "洛天依",
+		cover: "/music/covers/cover3.webp",
+		url: "/music/xiegeiwo.mp3",
+		duration: 182,
 	},
 	{
 		id: 4,
-		title: "春雷の頃",
-		artist: "22/7",
-		cover: clCover,
-		url: "assets/music/url/cl.mp3",
-		duration: 242,
+		title: "一程山路",
+		artist: "洛天依",
+		cover: "/music/covers/cover4.webp",
+		url: "/music/yichenshanlu.mp3",
+		duration: 220,
 	},
 	{
 		id: 5,
