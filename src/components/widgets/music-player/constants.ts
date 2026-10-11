@@ -9,11 +9,11 @@ export const DEFAULT_COVER_URL = "/favicon/favicon.ico";
 export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
-		title: "唱山",
+		title: "一半一半重置",
 		artist: "洛天依",
 		cover: "/music/covers/cover1.webp",
-		url: "/music/changshan.mp3",
-		duration: 260,
+		url: "/music/yibanyibanchongzhi.mp3",
+		duration: 254,
 	},
 	{
 		id: 2,
@@ -33,11 +33,11 @@ export const LOCAL_PLAYLIST: Song[] = [
 	},
 	{
 		id: 4,
-		title: "一程山路",
+		title: "东京不太热重置版",
 		artist: "洛天依",
 		cover: "/music/covers/cover4.webp",
-		url: "/music/yichenshanlu.mp3",
-		duration: 220,
+		url: "/music/dongjingbutaire2.mp3",
+		duration: 240,
 	},
 	{
 		id: 5,
