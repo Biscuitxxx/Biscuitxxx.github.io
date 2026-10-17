@@ -41,11 +41,11 @@ export const LOCAL_PLAYLIST: Song[] = [
 	},
 	{
 		id: 5,
-		title: "弦外知音",
-		artist: "鬼卞/银临",
+		title: "South Wind",
+		artist: "纯音乐",
 		cover: "/favicon/favicon.png",
-		url: "/music/xianwaizhiyin.mp3",
-		duration: 278,
+		url: "/music/SouthWind.mp3",
+		duration: 225,
 	},
 ];
 
