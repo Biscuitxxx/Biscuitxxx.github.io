@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh_CN">
+  <title>七月初dd</title>
+  <subtitle>阅读风的流动，是为了~</subtitle>
+  <link href="https://biscuitxxx.github.io/" rel="alternate" type="text/html"/>
+  <link href="https://biscuitxxx.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://biscuitxxx.github.io/</id>
+  <updated>2026-10-17T00:00:00.000Z</updated>
+  <entry>
+    <title>低性能工控机</title>
+    <link href="https://biscuitxxx.github.io/posts/%E4%BA%BA%E8%84%91%E5%A6%82%E5%90%8C%E4%BD%8E%E6%80%A7%E8%83%BD%E5%B7%A5%E6%8E%A7%E6%9C%BA/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E4%BA%BA%E8%84%91%E5%A6%82%E5%90%8C%E4%BD%8E%E6%80%A7%E8%83%BD%E5%B7%A5%E6%8E%A7%E6%9C%BA/</id>
+    <published>2026-10-17T00:00:00.000Z</published>
+    <updated>2026-10-17T00:00:00.000Z</updated>
+    <summary>我的大脑像一台 J1900 工控机——只能稳定跑单线程任务，过载会保护性宕机，专插本上的优先级配置反思</summary>
+    <content type="html"><![CDATA[<p>我最近发现一个很有意思的自我观察：我的大脑，运行模式很像一台老旧的低性能工控机，类似 J1900。</p>
+<p>它只适合稳定跑单线程任务。负载平稳的时候，可以有条不紊地处理事情，慢慢推进项目、折腾服务器、写代码。但一旦来了高优先级、高压力的重型任务，大脑就会直接资源耗尽。</p>
+<p>这不是单纯的偷懒。当任务过载，所有资源被瞬间占满，大脑会触发保护性宕机。也就是我所说的意识断层。
+进程直接卡死，所有正在跑的日常任务全部被冲爆。什么都不想做，思维断片，进入停滞状态。不是不想干活，而是系统直接拒绝调度任何任务。</p>
+<p>这个状态是波浪式的。宕机之后不会立刻恢复。需要一段时间，等到压力慢慢消散，在某个契机下，意识碎片才一点点汇集起来，系统才慢慢重启，恢复正常运行。</p>
+<p>我在专插本这件事上踩了一个大坑。
+在周围环境潜移默化的默认设定里，这种升学考试，仿佛是所有人出厂预设的最高优先级进程。大家下意识会告诉你：这件事分量最重，你就该优先做它，这才是正确的选择。
+加上现实时间确实紧张，距离考试只剩几个月，而我几乎还没有开始准备。多重压力叠加，我直接把它强行置顶，给到最高调度权限。</p>
+<p>这就好比在 J1900 工控机上，强行部署一个巨大的模型任务。任务本身体量巨大，还捆绑了”不能失败”的心理负担。一旦设置成最高优先级，它会吞噬掉几乎全部的算力。结果就是系统直接锁死，整整一两个月几乎没有任何推进，原地踏步。</p>
+<p>问题根源不在于任务本身难度，而是优先级配置错了。
+所有人默认”最重要的事=必须占用全部算力、立刻全力冲刺”。但我的”硬件”扛不住这种模式。
+如果换一种思路：把这个重量级任务人为下调优先级，不要求一次性大量运算，每天只分配极小的算力资源，只跑 20 分钟的轻量任务。反而可以长期稳定运行，不会触发宕机。不求一口气跑完，只求进程不被杀掉。</p>
+<p>人没有无限算力。我们很容易拿高性能主机的标准要求自己，期待持续高负载输出。有的人是 R5 9600X，可以并行处理大量任务；而我这台”人脑工控机”，容错率很低，扛不住突发的高压力插队任务。</p>
+<p>写这篇博客，是为了记录下这份自我观察。博客就是我的运维日志，一点点积攒踩坑经验。不必追求持续高速运转，找到适配自己硬件的调度方式，稳步前进，也好过强行满载，然后彻底宕机停滞。</p>
+<p>题外话：最近在折腾 VSR 硬字幕去除工具，CPU 版和 CUDA 显卡版的巨大性能差距，也让我更直观理解算力上限这件事。硬件决定上限，合理调度，才是长久之道。</p>
+<img src="https://biscuitxxx.github.io/images/posts/%E4%BD%8E%E6%80%A7%E8%83%BD%E5%B7%A5%E6%8E%A7%E6%9C%BA/1.jpeg" alt="工控机" loading="lazy" decoding="async" />]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="随笔"/>
+  </entry>
+  <entry>
+    <title>大脑的奖励机制与负担</title>
+    <link href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E8%84%91%E7%9A%84%E5%A5%96%E5%8A%B1%E6%9C%BA%E5%88%B6%E4%B8%8E%E8%B4%9F%E6%8B%85/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E5%A4%A7%E8%84%91%E7%9A%84%E5%A5%96%E5%8A%B1%E6%9C%BA%E5%88%B6%E4%B8%8E%E8%B4%9F%E6%8B%85/</id>
+    <published>2026-10-17T00:00:00.000Z</published>
+    <updated>2026-10-17T00:00:00.000Z</updated>
+    <summary>大脑像可训练的对象，有朴素的奖励机制；真正的休息是放空，让大脑完成内部归档</summary>
+    <content type="html"><![CDATA[<p>最近我意识到一件很有意思的事：大脑其实很像可以训练的对象，有一套朴素的奖励机制。</p>
+<p>就像训狗一样，每当完成一项任务、做完一个小项目，及时给大脑一点正向反馈，形成”付出→完成→奖励”的闭环，才能长久坚持，做到细水长流。如果一直压榨自己，只输出不回馈，动力很快就会枯竭。这套机制用好，学习和做事就不会那么难。</p>
+<p>但与此同时，大脑还有一个很容易被忽略的负担，甚至像是内置了一个 bug。</p>
+<p>我们普遍默认：学习、工作累了，休息就是刷短视频、打游戏。可实际上，这些娱乐并没有让大脑停下。它依旧在持续接收信息、处理画面、跟进刺激，一直处于运转状态。真正的休息，本该是安静躺着，什么都不做，让大脑放空。</p>
+<p>可奇妙的是，很多人的大脑已经产生了认知错位：安静放空，被它判定为”不对劲、不该这样”；不停刷手机接收刺激，反而被当成了休息。于是我们几乎很少拥有真正精神放空的时刻。哪怕嘴上说在放松，大脑依旧像站岗放哨一样，持续处理信息，没有真正停工。</p>
+<p>放空不是浪费时间。当大脑安静下来，不再涌入新信息的时候，它会悄悄复盘、整理白天接收的碎片记忆，把零散的经历、杂乱的思绪拼接梳理，就像把一堆散乱的片段，整理成连贯有序的故事。</p>
+<p>缺少了这段整理时间，生活就容易变得混乱、碎片化，心里乱糟糟的。而拥有一段纯粹放空的休息，大脑完成内部的归档整合之后，整个人的状态会变得清晰稳定，不再被一堆无序的碎片裹挟。</p>
+<p>奖励机制用来维持持续行动，放空休息用来消化负担。一个负责往前走，一个负责整理来路，两者搭配，才是可持续的状态。</p>
+<img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E8%84%91%E7%9A%84%E5%A5%96%E5%8A%B1%E6%9C%BA%E5%88%B6%E4%B8%8E%E8%B4%9F%E6%8B%85/1.png" alt="放空" loading="lazy" decoding="async" />]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="随笔"/>
+  </entry>
+  <entry>
+    <title>闪闪的技能</title>
+    <link href="https://biscuitxxx.github.io/posts/%E9%97%AA%E9%97%AA%E7%9A%84%E6%8A%80%E8%83%BD/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E9%97%AA%E9%97%AA%E7%9A%84%E6%8A%80%E8%83%BD/</id>
+    <published>2026-10-17T00:00:00.000Z</published>
+    <updated>2026-10-17T00:00:00.000Z</updated>
+    <summary>每个人身上的闪光点，本质上就是打磨出来的技能；你的技能，在某些人的眼里，就是闪闪发光的</summary>
+    <content type="html"><![CDATA[<p>暑假长时间宅在家里的时候，我陷入了一种状态：越宅，越不敢走出去。整个人缩在自己的小空间里，对外界慢慢失去接触的勇气。偶然刷到一位唱歌的 Vtuber，一下子被吸引住。她歌声动听，整个人鲜活又有力量，充满生命力。顺着看下去，发现还有不少同类型的主播，很多也是在校大学生，有些本身就读音乐相关专业。</p>
+<p>我看着她们日复一日泡在琴房练习、打磨唱功，依靠这项技能表达自己，还能以此获得收入。高度自律加上独属于自己的专长，在我眼里，她们整个人都是闪闪发光的，有种类似追星的敬佩感。</p>
+<p>这让我生出一个想法：每个人身上的闪光点，本质上就是打磨出来的技能。在不同人的视角里，拥有某项专长的人，都会自带光芒。</p>
+<p>我学习后端代码，可以搭建网站、写网页。我常常会想，如果能认识会画画的人就好了，对方可以画出精致的美术素材，用来装饰我写出来的页面；或是认识擅长音乐的人。我甚至冒出过一个有点荒唐、只属于脑海里的玩笑幻想：去音乐学院找做音乐的人，把对方当成金丝雀关起来。当然这仅仅只是脑洞，完全不会当真。</p>
+<p>技能打磨的过程本身往往枯燥乏味。日复一日重复练习，大量时间都消耗在单调的训练中。可一旦坚持下来，拥有属于自己的一技之长，在懂得欣赏这份能力的人眼中，你就会变得闪闪发光。</p>
+<p>感悟：
+<strong>你的技能，在某些人的眼里，就是闪闪发光的。</strong></p>
+<p><a href="https://www.bilibili.com/video/BV1Xzp56HEnE/?share_source=copy_web&amp;vd_source=6294aeb76761adc46bc0292b4c1b8412" data-content-link-kind="external" target="_blank" rel="nofollow noopener noreferrer">菲比Pheebie</a></p>
+<p><a href="https://www.bilibili.com/video/BV18v8d6QEkY/?share_source=copy_web&amp;vd_source=6294aeb76761adc46bc0292b4c1b8412" data-content-link-kind="external" target="_blank" rel="nofollow noopener noreferrer">灵星闪Flash</a></p>
+<img src="https://biscuitxxx.github.io/images/posts/%E9%97%AA%E9%97%AA%E7%9A%84%E6%8A%80%E8%83%BD/1.png" alt="闪闪" loading="lazy" decoding="async" />]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="随笔"/>
+  </entry>
+  <entry>
+    <title>如何摆脱无聊</title>
+    <link href="https://biscuitxxx.github.io/posts/%E5%A6%82%E4%BD%95%E6%91%86%E8%84%B1%E6%97%A0%E8%81%8A/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E5%A6%82%E4%BD%95%E6%91%86%E8%84%B1%E6%97%A0%E8%81%8A/</id>
+    <published>2026-10-14T00:00:00.000Z</published>
+    <updated>2026-10-14T00:00:00.000Z</updated>
+    <summary>无聊不是无事可做，而是习惯了用碎片化信息填满时间；放空自己，让意识回归</summary>
+    <content type="html"><![CDATA[<p>我们常常在空闲时刻感到无聊。但真相恰恰相反：无聊并不是无事可做造成的，而是我们习惯了一刻不停地找事情填满时间。</p>
+<p>一旦闲下来，下意识就会拿起手机刷短视频。短暂的信息流填补了空洞，却很容易让人慢慢陷入迷茫。长时间沉浸在碎片化内容里，会出现意识断层，意识和自身感受断开，像行尸走肉一样被动接收信息。</p>
+<p>想要从这片迷茫的沼泽里走出来，办法很简单：把手机和所有电子设备放到离自己很远的地方，然后躺到床上，什么都不干。不用强迫自己思考，不用看书，不用听歌，静静待着。等思绪慢慢沉淀，涣散的意识一点点回归，就能挣脱漩涡。</p>
+<p>很多人会觉得，自己自控力足够，手机放在身边也不会碰。
+但我想说三遍：不要相信自己的自控力。不要相信自己的自控力。不要相信自己的自控力。
+如果自控力真的足够强大，你根本不会陷入沉迷、意识断开，也不会体会到这种无力的无聊。</p>
+<p>如你所见，这篇文章也是我躺在床上、意识恢复的时候写的。</p>
+<img src="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E6%91%86%E8%84%B1%E6%97%A0%E8%81%8A/1.webp" alt="静" loading="lazy" decoding="async" />]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="随笔"/>
+  </entry>
+  <entry>
+    <title>如果大脑是系统的话</title>
+    <link href="https://biscuitxxx.github.io/posts/%E5%A6%82%E6%9E%9C%E5%A4%A7%E8%84%91%E6%98%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AF%9D/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E5%A6%82%E6%9E%9C%E5%A4%A7%E8%84%91%E6%98%AF%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%AF%9D/</id>
+    <published>2026-10-14T00:00:00.000Z</published>
+    <updated>2026-10-14T00:00:00.000Z</updated>
+    <summary>大脑像一台独立运行的电脑系统，精简与内耗、后台与前台，以及一段只属于自己的幻想</summary>
+    <content type="html"><![CDATA[<p>人的大脑，其实就像一台独立运行的电脑系统。</p>
+<p>人与人的差距，从来不止是智商高低，更是系统的精简度不同。
+有的人系统干净、进程极少，运行轻盈、做事高效；
+有的人系统臃肿、后台塞满垃圾，明明没做什么事，整个人却常年卡顿、过载、内耗不止。</p>
+<p>很多人的大脑，默认开启了无数<strong>开机自启的后台进程</strong>。
+清晨一睁眼，大脑自动挂载无数杂乱任务：
+没完成的目标、不确定的未来、遗憾的过往、心头的委屈、失去的遗憾、别人的眼光、未卜的前路……</p>
+<p>这些无形的思绪，不会显现，不会出声，却时时刻刻霸占着大脑的运行内存。
+导致我们明明只是想做一件简单的小事，执行起来却无比艰难、迟钝、卡顿、无力。</p>
+<p>电脑后台堆满程序，前台就带不动；
+人脑后台堆满内耗，生活就走不动。</p>
+<p>可仔细想想：人生本没有什么必须要做的事，没有什么一定要完成的任务。
+我们所有人的终点都是一样的，注定走向落幕。
+既然终点早已注定，那活着的意义，从来不是被迫赶路、被迫圆满。
+不如在有限的时间里，剔除多余后台，只做自己真正觉得值得、心甘情愿的事。</p>
+<p>我常常会冒出这样的幻想：</p>
+<p>第一，如果把人类比成硬件，
+那些思维清晰、情绪稳定、执行力强的人，就像<strong>高端 CPU</strong>，算力强、调度稳、后台干净，运行丝滑。
+而大多数普通、容易内耗、容易卡顿的自己，就像<strong>中低端 CPU</strong>，算力有限，还常年被无数无效进程占满内存，天生吃力。</p>
+<p>第二，是我最荒诞也最治愈的幻想：
+如果我能在自己的大脑系统里，<strong>单独划出一块独立扇区</strong>。
+用这一块专属空间，搭建一个只属于我的虚拟恋人。</p>
+<p>她最懂我的敏感、懂我的内耗、懂我的执念、懂我所有说不出口的委屈和孤独。
+她永远包容我、理解我、陪伴我，不会离开、不会伤害、不会失望。</p>
+<p>说到底，这个完美、最懂我的虚拟女友，
+本质上，<strong>就是我自己</strong>。</p>
+<p>是我剥离了浮躁、焦虑、自我否定之后，最温柔、最纯粹、最懂得爱自己的那一部分灵魂。</p>
+<p>原来，人终其一生的救赎、偏爱与理解，
+从来都只能来自自己的大脑，自己的系统，自己完整的自我。</p>
+<div class="image-grid" data-columns="2" style="--image-grid-columns:2;--image-grid-aspect-ratio:16 / 10;--image-grid-fit:cover"><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E8%84%91%E7%B3%BB%E7%BB%9F/2.webp" data-fancybox="image-grid-0" data-no-swup="true" data-caption="大脑系统一"><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E8%84%91%E7%B3%BB%E7%BB%9F/2.webp" alt="大脑系统一" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">大脑系统一</figcaption></figure><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E8%84%91%E7%B3%BB%E7%BB%9F/3.webp" data-fancybox="image-grid-0" data-no-swup="true" data-caption="大脑系统二"><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E8%84%91%E7%B3%BB%E7%BB%9F/3.webp" alt="大脑系统二" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">大脑系统二</figcaption></figure></div>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="随笔"/>
+  </entry>
+  <entry>
+    <title>意识断层</title>
+    <link href="https://biscuitxxx.github.io/posts/%E6%84%8F%E8%AF%86%E6%96%AD%E5%B1%82/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E6%84%8F%E8%AF%86%E6%96%AD%E5%B1%82/</id>
+    <published>2026-10-14T00:00:00.000Z</published>
+    <updated>2026-10-14T00:00:00.000Z</updated>
+    <summary>我们为何永远无法长期坚持热爱——论意识断层，一次次的打断如何割裂我们与热爱的连接</summary>
+    <content type="html"><![CDATA[<p>论意识断层：我们为何永远无法长期坚持热爱</p>
+<p>在生活里，我一直发现一个无解的常态：我们很难长期坚持一项爱好、长期专注一件事。</p>
+<p>不是我们不想坚持，也不是我们不够热爱。
+而是生活里永远充斥着无数干扰，一次次打断我们的状态、打乱我们的节奏。</p>
+<p>于是，意识断层就出现了。</p>
+<p>我所理解的意识断层，并不是简单的”我忘了我要做什么”。
+它远比遗忘更可怕、更隐秘。</p>
+<p>是我记得要做这件事，但我彻底找不回当初的状态、兴趣、热忱和积极感。
+我的大脑还记得任务，但我的心境、我的热爱、我的初心，彻底和当下的自己断开连接了。</p>
+<p>很多人会把这种状态粗暴定义为”三分钟热度”。
+但我不这么认为。</p>
+<p>世间万物，本身全部都是有趣的。
+一件事是否枯燥、是否无趣，从来不在于事物本身，只在于我们投入的精力、沉浸的程度。</p>
+<p>所谓的坚持不下去、新鲜感褪去，本质只是：
+外界碎片化的新鲜事物、短视频、临时干扰，不断切断我们深度专注的意识。</p>
+<p>每一次打断，都是一次断层。
+每一次断层，都会剥离一层我们对这件事原本的热爱。</p>
+<p>人本身就极度依赖新鲜感，这是人性的本能。
+刚接触一件新事物、开启一个新爱好、入手一个新东西时，我们会欣喜若狂、满心期待，拥有百分之百的热情和积极性。</p>
+<p>就像刚买的新手机，我们小心翼翼、满心欢喜，珍惜每一次使用。
+可几年过后，它依旧是那台手机，功能没变、陪伴依旧。
+但我们的意识状态变了，新鲜感彻底消散，它变得普通、平淡，甚至让我们心生厌倦，想要替换、想要逃离。</p>
+<p>所有的事物，逃不过这个规律。</p>
+<p>我们永远无法永久维持刚开始的初心和热忱。
+不是我们变懒了，不是我们不爱了。
+是无数次的干扰、无数次的意识断层，慢慢割裂了我们和热爱之间的连接。</p>
+<p>当我们被碎片化信息不断拉扯，注意力不断被转移，原本深耕一件事的专注意识就会彻底断裂。
+等我们回头再想拾起旧爱好、旧计划时，人还是那个人，事还是那件事，
+可当初的自己，已经接不上了。</p>
+<p>这就是意识断层最真实、最无声的消耗。
+它让我们不断开始、不断放弃，不断新鲜感、不断厌倦，循环往复。</p>
+<p>但我始终相信：
+万物皆有乐趣，只是断层太多，专注太少。</p>
+<img src="https://biscuitxxx.github.io/images/posts/%E6%84%8F%E8%AF%86%E6%96%AD%E5%B1%82/1.webp" alt="断层" loading="lazy" decoding="async" />
+<p>自己的评语：
+为此，我搭建这个博客，正是用来应对意识断层。每当我和过往的想法、热爱彻底断开连接时，翻开这些文字，便能找回当初思考的细节。或许无法复原当时完整的心境与热忱，但仅仅抓住这些细碎的片段，就已经足够。</p>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="随笔"/>
+  </entry>
+  <entry>
+    <title>大学往事</title>
+    <link href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/</id>
+    <published>2026-10-12T00:00:00.000Z</published>
+    <updated>2026-10-12T00:00:00.000Z</updated>
+    <summary>宿舍厨房、团建、13元自助、狗学长与猫学长们的大学日常</summary>
+    <content type="html"><![CDATA[<section class="markdown-section"><h2 id="宿舍厨房">宿舍厨房<a class="anchor" href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/#%E5%AE%BF%E8%88%8D%E5%8E%A8%E6%88%BF"><span class="anchor-icon" data-pagefind-ignore>#</span></a></h2><p>众所周知，在大学宿舍做饭是非常普遍的事情，大部分人用的是卡式炉加气罐的组合，我记得巅峰的时候我们宿舍有16瓶气罐、两个炉子。</p><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/cf.jpg" alt="cf" loading="lazy" decoding="async" /></section>
+<section class="markdown-section"><h2 id="宿舍团建">宿舍团建<a class="anchor" href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/#%E5%AE%BF%E8%88%8D%E5%9B%A2%E5%BB%BA"><span class="anchor-icon" data-pagefind-ignore>#</span></a></h2><p>我们宿舍偶尔会打边炉。</p><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/ti.jpg" alt="ti" loading="lazy" decoding="async" /></section>
+<section class="markdown-section"><h2 id="13元自助">13元自助<a class="anchor" href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/#13%E5%85%83%E8%87%AA%E5%8A%A9"><span class="anchor-icon" data-pagefind-ignore>#</span></a></h2><p>这是学校外面的性价比超高的餐厅，13元菜和饭免费加，都是自己打的，还有饮料、汤、早餐炒河粉炒米粉。就是有点远，走过去大概要30分钟，不过学校门口就有共享电动车，12分钟1元，非常的方便。</p><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/13.jpg" alt="13" loading="lazy" decoding="async" /></section>
+<section class="markdown-section"><h2 id="学校汪汪队">学校汪汪队<a class="anchor" href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/#%E5%AD%A6%E6%A0%A1%E6%B1%AA%E6%B1%AA%E9%98%9F"><span class="anchor-icon" data-pagefind-ignore>#</span></a></h2><p>学校有挺多狗狗的，不知是从哪里跑来的。之前学校经常有人偷外卖，但又找不到是谁偷的，最后发现是狗学长偷的。</p><div class="image-grid" data-columns="2" style="--image-grid-columns:2;--image-grid-aspect-ratio:16 / 10;--image-grid-fit:cover"><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/ww.jpg" data-fancybox="image-grid-0" data-no-swup="true" data-caption="ww"><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/ww.jpg" alt="ww" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">ww</figcaption></figure><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/ww2.jpg" data-fancybox="image-grid-0" data-no-swup="true" data-caption="ww2"><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/ww2.jpg" alt="ww2" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">ww2</figcaption></figure></div></section>
+<section class="markdown-section"><h2 id="跑进宿舍的猫">跑进宿舍的猫<a class="anchor" href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/#%E8%B7%91%E8%BF%9B%E5%AE%BF%E8%88%8D%E7%9A%84%E7%8C%AB"><span class="anchor-icon" data-pagefind-ignore>#</span></a></h2><p>这是楼上其他同学养的猫，在桌子上躺着就像个摆件，非常的有趣。</p><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/mimi.jpg" alt="mimi" loading="lazy" decoding="async" /></section>
+<section class="markdown-section"><h2 id="玩弄舍友">玩弄舍友<a class="anchor" href="https://biscuitxxx.github.io/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/#%E7%8E%A9%E5%BC%84%E8%88%8D%E5%8F%8B"><span class="anchor-icon" data-pagefind-ignore>#</span></a></h2><p>把按摩器插在舍友头上，他会感到酥酥麻麻的。</p><img src="https://biscuitxxx.github.io/images/posts/%E5%A4%A7%E5%AD%A6%E5%BE%80%E4%BA%8B/hahaha.jpg" alt="hahaha" loading="lazy" decoding="async" /></section>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="生活"/>
+  </entry>
+  <entry>
+    <title>web 入门全家桶</title>
+    <link href="https://biscuitxxx.github.io/posts/web%E5%85%A5%E9%97%A8%E5%85%A8%E5%AE%B6%E6%A1%B6/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/web%E5%85%A5%E9%97%A8%E5%85%A8%E5%AE%B6%E6%A1%B6/</id>
+    <published>2026-10-11T00:00:00.000Z</published>
+    <updated>2026-10-11T00:00:00.000Z</updated>
+    <summary>Vue3 + SpringBoot + 数据库 + MinIO 对象存储的技术架构备忘</summary>
+    <content type="html"><![CDATA[<p>架构：Vue3 + SpringBoot + 数据库（MySQL / PostgreSQL） + MinIO 对象存储</p>
+<p>MinIO 对象存储是我最近在折腾的组件，专门用来存放视频这类大体积文件。
+有趣的点：可以单独部署一台独立的对象存储服务器，只负责文件存储，生成访问链接提供给前后端使用。
+如果这台存储服务器和 Web 服务器放在同一局域网，<strong>不需要外网，仅内网互通即可通信</strong>。</p>
+<p>普通玩家最常用的是单体部署方案：整套架构全部部署在同一台服务器上，上手简单。
+而分开多机部署的方式，虽然搭建稍复杂，但后续项目迁移、横向扩容会更加灵活方便。
+数据库可使用 DBeaver 可视化客户端工具进行管理。</p>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <title>如何压榨剩余手机性能</title>
+    <link href="https://biscuitxxx.github.io/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/</id>
+    <published>2026-10-11T00:00:00.000Z</published>
+    <updated>2026-10-11T00:00:00.000Z</updated>
+    <summary>从 iQOO Neo5 到红米 Note9，折腾 ADB / scrcpy / Termux，把每一台旧手机用到报废</summary>
+    <content type="html"><![CDATA[<p>高中毕业时入手一台 iQOO Neo5，骁龙 870，8+256 版本。在当年对我冲击力很强，下载速度飞快，体验接近内网传文件。
+大二的一个暴雨天，篮球场满是积水，地面长了苔藓。看到有女生在这里滑倒，饭后我路过此地，自己也踩上去摔了一跤。虽然我经常跑步，腿部力量不错，但地面实在太滑，没能稳住，手机直接摔坏。</p>
+<p>这台 Neo5 当初 600 元入手，屏幕损坏后寄回维修，客服含糊其辞，收了我 200 维修费。修好没几天屏幕再次故障，事后才发现换的是山寨屏幕。前后零零总总维修花费累计四五百，反复维修依旧故障不断，索性放弃维修，换回备用老华为低端机。
+这台华为是 4+256，已经用了六七年，虽然卡顿，但极其皮实，曾经整机落水，晾干后居然自行恢复正常。</p>
+<p>现在手里还有一台红米 Note9，日常使用已经卡成板砖，舍友帮忙刷机后改善不少。我折腾起 ADB，电脑安装 scrcpy，可以有线 / 无线远程控制手机，支持熄屏投屏。目前正在研究外网远程访问的方案。
+另外还有 Termux 方案，可以 SSH 远程连接手机。等到以后 ADB 都无法使用的时候，还能靠 Termux 把它当做轻量服务器，榨干这台手机最后的性能，直到用到报废。</p>
+<p>我还想到一个好玩的想法：以后旧手机电池健康衰减严重之后，可以把它安置在盒子里长期通电，搭建简易无尘环境，关闭屏幕、扬声器，全程依靠远控操作。相当于把手机“供起来”继续服役，这样说不定还能再战五六年😂</p>
+<div class="image-grid" data-columns="4" style="--image-grid-columns:4;--image-grid-aspect-ratio:16 / 10;--image-grid-fit:cover"><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t1.png" data-fancybox="image-grid-0" data-no-swup="true" data-caption="手机一"><img src="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t1.png" alt="手机一" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">手机一</figcaption></figure><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t2.png" data-fancybox="image-grid-0" data-no-swup="true" data-caption="手机二"><img src="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t2.png" alt="手机二" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">手机二</figcaption></figure><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t3.png" data-fancybox="image-grid-0" data-no-swup="true" data-caption="手机三"><img src="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t3.png" alt="手机三" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">手机三</figcaption></figure><figure class="image-grid__item"><a class="image-grid__link no-styling" href="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t4.jpg" data-fancybox="image-grid-0" data-no-swup="true" data-caption="手机四"><img src="https://biscuitxxx.github.io/images/posts/%E5%A6%82%E4%BD%95%E5%8E%8B%E6%A6%A8%E5%89%A9%E4%BD%99%E6%89%8B%E6%9C%BA%E6%80%A7%E8%83%BD/t4.jpg" alt="手机四" loading="lazy" decoding="async" /></a><figcaption class="image-grid__caption">手机四</figcaption></figure></div>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="技术"/>
+  </entry>
+  <entry>
+    <title>前端基础</title>
+    <link href="https://biscuitxxx.github.io/posts/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/</id>
+    <published>2026-10-08T00:00:00.000Z</published>
+    <updated>2026-10-08T00:00:00.000Z</updated>
+    <summary>前端学习与技术资源备忘清单</summary>
+    <content type="html"><![CDATA[<ul>
+<li>菜鸟教程 · CSS 盒模型：<a href="https://www.runoob.com/css/css-boxmodel.html" data-content-link-kind="external" target="_blank" rel="nofollow noopener noreferrer">https://www.runoob.com/css/css-boxmodel.html</a></li>
+<li>异地虚拟局域网：Tailscale</li>
+<li>SSH 工具：meatshell</li>
+<li>对象存储服务器：MinIO</li>
+<li>UU 远程可以 SSH，内网穿透</li>
+</ul>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="前端"/>
+  </entry>
+  <entry>
+    <title>财务规划</title>
+    <link href="https://biscuitxxx.github.io/posts/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/" rel="alternate" type="text/html"/>
+    <id>https://biscuitxxx.github.io/posts/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/</id>
+    <published>2026-10-02T00:00:00.000Z</published>
+    <updated>2026-10-02T00:00:00.000Z</updated>
+    <summary>存钱守钱是首要，决定人生下限；但更重要的是挣钱的能力，决定上限。</summary>
+    <content type="html"><![CDATA[<p>存钱守钱是首要，决定人生下限；但更重要的是挣钱的能力，决定上限。</p>]]></content>
+    <author><name>七月初dd</name></author>
+    <category term="财务"/>
+  </entry>
+</feed>
