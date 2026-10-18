@@ -9,19 +9,19 @@ export const DEFAULT_COVER_URL = "/favicon/favicon.ico";
 export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
-		title: "一半一半重置",
-		artist: "洛天依",
+		title: "来自深渊_烈日的黄金乡",
+		artist: "动漫原声",
 		cover: "/music/covers/cover1.webp",
-		url: "/music/yibanyibanchongzhi.mp3",
-		duration: 254,
+		url: "/music/laizishenyuan.mp3",
+		duration: 422,
 	},
 	{
 		id: 2,
-		title: "东京不太热",
-		artist: "洛天依",
+		title: "茶汤",
+		artist: "郁可唯",
 		cover: "/music/covers/cover2.webp",
-		url: "/music/dongjingbutaire.mp3",
-		duration: 225,
+		url: "/music/chatang.mp3",
+		duration: 304,
 	},
 	{
 		id: 3,
